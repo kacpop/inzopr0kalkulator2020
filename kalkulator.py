@@ -1,7 +1,5 @@
-def dodaj():
-print('wprowadz dwie liczby a zostaną one dodane.')
-    a= int(intput())
-    b= int(intput())
-    print(a+b)
+def dodaj(a,b):
+    wynik = a + b
+    return wynik
     
 dodaj()
